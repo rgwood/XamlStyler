@@ -187,7 +187,7 @@ namespace Xavalon.XamlStyler.Extension.Windows
                 0,
                 ref clsid,
                 $"Error in {this.GetType().Name}:",
-                $"{ex.Message}\r\n\r\nIf this deems a malfunctioning of styler, please kindly submit an issue at https://github.com/Xavalon/XamlStyler.",
+                $"{ex.Message}\r\n\r\nIf this is a bug in XamlStyler, please submit an issue at https://github.com/Xavalon/XamlStyler.",
                 String.Empty,
                 0,
                 OLEMSGBUTTON.OLEMSGBUTTON_OK,
